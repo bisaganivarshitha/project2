@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: aqua;
+    font-family: 'Times New Roman',Times,serif;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: aquamarine;
+    width:500px;
+    padding:60px;
+    text-align:center;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.15);
+    border-radius: 20px;
+}
+img{
+    border-radius: 50%;
+    object-fit:cover;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p{
+    color:black;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.details p a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(72,98,76);
+}
+.buttons a{
+    text-decoration: none;
+    background-color: rgb(45,67,78);
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    margin:9px;
+}
+.buttons{
+    margin-top:50px ;
+}
+.buttons a:hover{
+    background-color: red;
+}
